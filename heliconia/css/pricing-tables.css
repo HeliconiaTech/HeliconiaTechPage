@@ -181,9 +181,9 @@
   color: #DCFAFC !important;
 }
 .pi-section-white .pi-pricing .pi-pricing-head-green {
-  background: #8eba3e !important;
+  background: #18ba60 !important;
   color: #DAFCDB !important;
-  border-color: red !important;
+  border-color: #10a95b !important;
 }
 .pi-section-white .pi-pricing .pi-pricing-head-green .pi-pricing-title,
 .pi-section-white .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
@@ -334,9 +334,9 @@
   color: #DCFAFC !important;
 }
 .pi-section-grey .pi-pricing .pi-pricing-head-green {
-  background: #8eba3e !important;
+  background: #18ba60 !important;
   color: #DAFCDB !important;
-  border-color: red !important;
+  border-color: #10a95b !important;
 }
 .pi-section-grey .pi-pricing .pi-pricing-head-green .pi-pricing-title,
 .pi-section-grey .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
@@ -433,7 +433,7 @@
 }
 .pi-section-base .pi-pricing thead th,
 .pi-section-base .pi-pricing thead td {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #20cb74;
 }
 .pi-section-base .pi-pricing tbody th,
@@ -448,7 +448,7 @@
 }
 .pi-section-base .pi-pricing tfoot th,
 .pi-section-base .pi-pricing tfoot td {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #20cb74;
 }
 .pi-section-base .pi-pricing .pi-pricing-title,
@@ -487,9 +487,9 @@
   color: #DCFAFC !important;
 }
 .pi-section-base .pi-pricing .pi-pricing-head-green {
-  background: #8eba3e !important;
+  background: #18ba60 !important;
   color: #DAFCDB !important;
-  border-color: red !important;
+  border-color: #10a95b !important;
 }
 .pi-section-base .pi-pricing .pi-pricing-head-green .pi-pricing-title,
 .pi-section-base .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
@@ -640,9 +640,9 @@
   color: #DCFAFC !important;
 }
 .pi-section-dark .pi-pricing .pi-pricing-head-green {
-  background: #8eba3e !important;
+  background: #18ba60 !important;
   color: #DAFCDB !important;
-  border-color: red !important;
+  border-color: #10a95b !important;
 }
 .pi-section-dark .pi-pricing .pi-pricing-head-green .pi-pricing-title,
 .pi-section-dark .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
@@ -793,9 +793,9 @@
   color: #DCFAFC !important;
 }
 .pi-section-parallax .pi-pricing .pi-pricing-head-green {
-  background: #8eba3e !important;
+  background: #18ba60 !important;
   color: #DAFCDB !important;
-  border-color: red !important;
+  border-color: #10a95b !important;
 }
 .pi-section-parallax .pi-pricing .pi-pricing-head-green .pi-pricing-title,
 .pi-section-parallax .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
@@ -891,9 +891,9 @@
   color: #D6EBFA !important;
 }
 .pi-pricing .pi-pricing-head-base {
-  background: #8eba3e !important;
+  background: #18ba60 !important;
   color: #DAFCDB !important;
-  border-color: red !important;
+  border-color: #10a95b !important;
 }
 .pi-pricing .pi-pricing-head-base .pi-pricing-title,
 .pi-pricing .pi-pricing-head-base .pi-pricing-currency,

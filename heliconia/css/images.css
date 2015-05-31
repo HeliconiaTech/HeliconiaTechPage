@@ -420,7 +420,7 @@ img {
 }
 .pi-section-base .pi-img-border-double {
   border-color: #21d178;
-  background-color: #8eba3e;
+  background-color: #18ba60;
 }
 .pi-section-base .pi-img-w:hover a .pi-img-border-double {
   border-color: #3eda8b;
@@ -440,14 +440,14 @@ img {
   border-color: #e8eeee;
 }
 .pi-section-white .pi-img-w:hover a .pi-img-border {
-  border-color: #8eba3e;
+  border-color: #18ba60;
 }
 .pi-section-white .pi-img-border-double {
   border-color: #e5eaea;
   background-color: #ffffff;
 }
 .pi-section-white .pi-img-w:hover a .pi-img-border-double {
-  border-color: #8eba3e;
+  border-color: #18ba60;
   background-color: #ffffff;
 }
 .pi-section-white .pi-img-caption {
@@ -456,22 +456,22 @@ img {
   color: #737a81;
 }
 .pi-section-white .pi-img-w:hover a.pi-img-caption {
-  background: #8eba3e;
-  border-color: red;
+  background: #18ba60;
+  border-color: #10a95b;
   color: #ffffff;
 }
 .pi-section-grey .pi-img-border {
   border-color: #dbe3e3;
 }
 .pi-section-grey .pi-img-w:hover a .pi-img-border {
-  border-color: #8eba3e;
+  border-color: #18ba60;
 }
 .pi-section-grey .pi-img-border-double {
   border-color: #dae1e1;
   background-color: #ffffff;
 }
 .pi-section-grey .pi-img-w:hover a .pi-img-border-double {
-  border-color: #8eba3e;
+  border-color: #18ba60;
   background-color: #ffffff;
 }
 .pi-section-grey .pi-img-caption {
@@ -480,22 +480,22 @@ img {
   color: #737a81;
 }
 .pi-section-grey .pi-img-w:hover a.pi-img-caption {
-  background: #8eba3e;
-  border-color: red;
+  background: #18ba60;
+  border-color: #10a95b;
   color: #ffffff;
 }
 .pi-section-dark .pi-img-border {
   border-color: #2a3037;
 }
 .pi-section-dark .pi-img-w:hover a .pi-img-border {
-  border-color: #8eba3e;
+  border-color: #18ba60;
 }
 .pi-section-dark .pi-img-border-double {
   border-color: #32383f;
   background-color: #2a3037;
 }
 .pi-section-dark .pi-img-w:hover a .pi-img-border-double {
-  border-color: #8eba3e;
+  border-color: #18ba60;
   background-color: #2a3037;
 }
 .pi-section-dark .pi-img-caption {
@@ -504,19 +504,19 @@ img {
   color: #808d97;
 }
 .pi-section-dark .pi-img-w:hover a.pi-img-caption {
-  background: #8eba3e;
-  border-color: red;
+  background: #18ba60;
+  border-color: #10a95b;
   color: #ffffff;
 }
 .pi-caption-icon {
-  background: rgba(142, 186, 62, 0.85);
+  background: rgba(24, 186, 96, 0.85);
   color: #fff;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .pi-caption-icon:hover {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-caption-icon.pi-caption-icon-light {
   background: #fff;
@@ -536,7 +536,7 @@ img {
   box-shadow: none;
 }
 .pi-caption-icon.pi-caption-icon-dark:hover {
-  background: #8eba3e;
+  background: #18ba60;
   color: #fff;
 }
 .pi-caption-icon.pi-caption-icon-only {
@@ -617,7 +617,7 @@ img {
   color: #4d5258;
 }
 .pi-img-overlay.pi-img-overlay-whiter .pi-caption-links li a:hover {
-  color: #8eba3e;
+  color: #18ba60;
 }
 .pi-img-w:hover .pi-img-overlay.pi-img-overlay-hovered,
 .pi-img-w a:hover .pi-img-overlay.pi-img-overlay-hovered,

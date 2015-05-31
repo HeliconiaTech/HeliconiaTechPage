@@ -67,7 +67,7 @@
 }
 .pi-section-white .pi-border-top:after,
 .pi-section-white .pi-border-left:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-white .pi-border {
   border: 1px solid #e5eaea;
@@ -87,7 +87,7 @@
 }
 .pi-section-grey .pi-border-top:after,
 .pi-section-grey .pi-border-left:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-grey .pi-border {
   border: 1px solid #d5d9dd;
@@ -127,7 +127,7 @@
 }
 .pi-section-dark .pi-border-top:after,
 .pi-section-dark .pi-border-left:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-dark .pi-border {
   border: 1px solid #32383f;
@@ -147,7 +147,7 @@
 }
 .pi-section-parallax .pi-border-top:after,
 .pi-section-parallax .pi-border-left:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-parallax .pi-border {
   border: 1px solid #232326;

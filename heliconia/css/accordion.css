@@ -101,7 +101,7 @@
   box-shadow: inset 0 1px 0 #f8fafa;
 }
 .pi-section-white .pi-accordion .pi-accordion-title a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   text-shadow: transparent;
 }
 .pi-section-white .pi-accordion .pi-accordion-title a:hover .pi-accordion-toggle {
@@ -119,9 +119,9 @@
   text-shadow: transparent;
 }
 .pi-section-white .pi-accordion .pi-accordion-item-active .pi-accordion-title a .pi-accordion-toggle {
-  border-color: red;
-  border-top-color: red;
-  background: #8eba3e;
+  border-color: #10a95b;
+  border-top-color: #10a95b;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 1px 0 #1bc26c;
@@ -129,13 +129,13 @@
   box-shadow: inset 0 1px 0 #1bc26c;
 }
 .pi-section-white .pi-accordion .pi-accordion-item-active .pi-accordion-title a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   text-shadow: transparent;
 }
 .pi-section-white .pi-accordion .pi-accordion-item-active .pi-accordion-title a:hover .pi-accordion-toggle {
-  border-color: red;
-  border-top-color: red;
-  background: #8eba3e;
+  border-color: #10a95b;
+  border-top-color: #10a95b;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 1px 0 #1bc26c;
@@ -160,7 +160,7 @@
   box-shadow: inset 0 1px 0 #f8fafa;
 }
 .pi-section-grey .pi-accordion .pi-accordion-title a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   text-shadow: transparent;
 }
 .pi-section-grey .pi-accordion .pi-accordion-title a:hover .pi-accordion-toggle {
@@ -178,9 +178,9 @@
   text-shadow: transparent;
 }
 .pi-section-grey .pi-accordion .pi-accordion-item-active .pi-accordion-title a .pi-accordion-toggle {
-  border-color: red;
-  border-top-color: red;
-  background: #8eba3e;
+  border-color: #10a95b;
+  border-top-color: #10a95b;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 1px 0 #1bc26c;
@@ -188,13 +188,13 @@
   box-shadow: inset 0 1px 0 #1bc26c;
 }
 .pi-section-grey .pi-accordion .pi-accordion-item-active .pi-accordion-title a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   text-shadow: transparent;
 }
 .pi-section-grey .pi-accordion .pi-accordion-item-active .pi-accordion-title a:hover .pi-accordion-toggle {
-  border-color: red;
-  border-top-color: red;
-  background: #8eba3e;
+  border-color: #10a95b;
+  border-top-color: #10a95b;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 1px 0 #1bc26c;
@@ -278,7 +278,7 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .pi-section-dark .pi-accordion .pi-accordion-title a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   text-shadow: transparent;
 }
 .pi-section-dark .pi-accordion .pi-accordion-title a:hover .pi-accordion-toggle {
@@ -296,9 +296,9 @@
   text-shadow: transparent;
 }
 .pi-section-dark .pi-accordion .pi-accordion-item-active .pi-accordion-title a .pi-accordion-toggle {
-  border-color: #8eba3e;
-  border-top-color: #C0F068;
-  background: #8eba3e;
+  border-color: #18ba60;
+  border-top-color: #22d686;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: none;
@@ -306,13 +306,13 @@
   box-shadow: none;
 }
 .pi-section-dark .pi-accordion .pi-accordion-item-active .pi-accordion-title a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   text-shadow: transparent;
 }
 .pi-section-dark .pi-accordion .pi-accordion-item-active .pi-accordion-title a:hover .pi-accordion-toggle {
-  border-color: #8eba3e;
-  border-top-color: #C0F068;
-  background: #8eba3e;
+  border-color: #18ba60;
+  border-top-color: #22d686;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: none;
@@ -355,9 +355,9 @@
   text-shadow: transparent;
 }
 .pi-section-parallax .pi-accordion .pi-accordion-item-active .pi-accordion-title a .pi-accordion-toggle {
-  border-color: #8eba3e;
+  border-color: #18ba60;
   border-top-color: #5aa9f5;
-  background: #8eba3e;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 -1px 0 #2c64e9;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);

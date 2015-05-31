@@ -54,11 +54,11 @@
   letter-spacing: 1px;
 }
 .pi-section-white .pi-dropcap {
-  color: #8eba3e;
+  color: #18ba60;
 }
 .pi-section-white .pi-dropcap-circle,
 .pi-section-white .pi-dropcap-square {
-  background: #8eba3e;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: none;
@@ -66,11 +66,11 @@
   box-shadow: none;
 }
 .pi-section-grey .pi-dropcap {
-  color: #8eba3e;
+  color: #18ba60;
 }
 .pi-section-grey .pi-dropcap-circle,
 .pi-section-grey .pi-dropcap-square {
-  background: #8eba3e;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: none;
@@ -90,11 +90,11 @@
   box-shadow: none;
 }
 .pi-section-dark .pi-dropcap {
-  color: #8eba3e;
+  color: #18ba60;
 }
 .pi-section-dark .pi-dropcap-circle,
 .pi-section-dark .pi-dropcap-square {
-  background: #8eba3e;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -102,11 +102,11 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 .pi-section-parallax .pi-dropcap {
-  color: #8eba3e;
+  color: #18ba60;
 }
 .pi-section-parallax .pi-dropcap-circle,
 .pi-section-parallax .pi-dropcap-square {
-  background: #8eba3e;
+  background: #18ba60;
   color: #ffffff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);

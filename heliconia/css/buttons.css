@@ -333,8 +333,8 @@
   box-shadow: none;
 }
 .pi-btn-green {
-  background: #8eba3e;
-  border: 1px solid red;
+  background: #18ba60;
+  border: 1px solid #10a95b;
   color: #fff !important;
   -webkit-box-shadow: inset 0 1px 0 #1bc26c;
   -moz-box-shadow: inset 0 1px 0 #1bc26c;
@@ -342,8 +342,8 @@
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-btn-green:hover {
-  background: #6B8C30;
-  border: 1px solid blue;
+  background: #099555;
+  border: 1px solid #088b4c;
   color: #fff !important;
   -webkit-box-shadow: inset 0 1px 0 #0aa05e;
   -moz-box-shadow: inset 0 1px 0 #0aa05e;
@@ -351,15 +351,15 @@
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-btn-green.pi-btn-no-border {
-  border-color: #8eba3e;
-  border-top-color: #C0F068;
+  border-color: #18ba60;
+  border-top-color: #22d686;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 .pi-btn-green.pi-btn-no-border:hover {
-  border-color: #6B8C30;
-  border-top-color: #9ECB4D;
+  border-color: #099555;
+  border-top-color: #0cb56f;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -557,8 +557,8 @@
   box-shadow: none;
 }
 .pi-btn-base {
-  background: #8eba3e;
-  border: 1px solid red;
+  background: #18ba60;
+  border: 1px solid #10a95b;
   color: #fff !important;
   -webkit-box-shadow: inset 0 1px 0 #1bc26c;
   -moz-box-shadow: inset 0 1px 0 #1bc26c;
@@ -566,8 +566,8 @@
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-btn-base:hover {
-  background: #6B8C30;
-  border: 1px solid blue;
+  background: #099555;
+  border: 1px solid #088b4c;
   color: #fff !important;
   -webkit-box-shadow: inset 0 1px 0 #0aa05e;
   -moz-box-shadow: inset 0 1px 0 #0aa05e;
@@ -575,15 +575,15 @@
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-btn-base.pi-btn-no-border {
-  border-color: #8eba3e;
-  border-top-color: #C0F068;
+  border-color: #18ba60;
+  border-top-color: #22d686;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 .pi-btn-base.pi-btn-no-border:hover {
-  border-color: #6B8C30;
-  border-top-color: #9ECB4D;
+  border-color: #099555;
+  border-top-color: #0cb56f;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;

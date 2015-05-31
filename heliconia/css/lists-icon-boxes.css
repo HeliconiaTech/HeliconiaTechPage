@@ -496,7 +496,7 @@
   color: #4a5058;
 }
 .pi-section-white .pi-list-menu li a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   background: #f8fafa;
 }
 .pi-section-grey li .pi-bullet-icon,
@@ -518,7 +518,7 @@
   color: #4a5058;
 }
 .pi-section-grey .pi-list-menu li a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   background: #fafbfc;
 }
 .pi-section-base li .pi-bullet-icon,
@@ -562,7 +562,7 @@
   color: #abb3b9;
 }
 .pi-section-dark .pi-list-menu li a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   background: #272b32;
 }
 .pi-section-parallax li .pi-bullet-icon,
@@ -584,7 +584,7 @@
   color: #abb3b9;
 }
 .pi-section-parallax .pi-list-menu li a:hover {
-  color: #8eba3e;
+  color: #18ba60;
   background: #32363c;
 }
 .pi-bullets-circle li .pi-bullet-icon,
@@ -596,7 +596,7 @@
 }
 .pi-bullets-base li .pi-bullet-icon,
 .pi-bullets-base li .pi-bullet-icon-img {
-  background: #8eba3e;
+  background: #1DC066;
   color: #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
@@ -622,9 +622,9 @@
 .pi-bullets-contur-base li .pi-bullet-icon,
 .pi-bullets-contur-base li .pi-bullet-icon-img {
   background: none;
-  color: #8eba3e;
+  color: #1DC066;
   text-shadow: none;
-  border-color: #8eba3e;
+  border-color: #1DC066;
 }
 .pi-icon-box .pi-icon-box-icon,
 .pi-icon-box-vertical .pi-icon-box-icon {
@@ -632,7 +632,7 @@
 }
 .pi-icon-box .pi-icon-box-icon.pi-icon-box-icon-base,
 .pi-icon-box-vertical .pi-icon-box-icon.pi-icon-box-icon-base {
-  color: #8eba3e;
+  color: #1DC066;
 }
 .pi-icon-box .pi-icon-box-icon.pi-icon-box-icon-dark,
 .pi-icon-box-vertical .pi-icon-box-icon.pi-icon-box-icon-dark {
@@ -653,7 +653,7 @@
 .pi-icon-box-vertical .pi-icon-box-icon-circle.pi-icon-box-icon-base,
 .pi-icon-box .pi-icon-box-icon-square.pi-icon-box-icon-base,
 .pi-icon-box-vertical .pi-icon-box-icon-square.pi-icon-box-icon-base {
-  background: #8eba3e;
+  background: #1DC066;
   color: #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
@@ -665,7 +665,7 @@
 .pi-icon-box .pi-icon-box-icon-square.pi-icon-box-icon-dark,
 .pi-icon-box-vertical .pi-icon-box-icon-square.pi-icon-box-icon-dark {
   background: #2e343c;
-  color: #8eba3e;
+  color: #1DC066;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
@@ -676,7 +676,7 @@
 .pi-icon-box .pi-icon-box-icon-square.pi-icon-box-icon-white,
 .pi-icon-box-vertical .pi-icon-box-icon-square.pi-icon-box-icon-white {
   background: #fff;
-  color: #8eba3e;
+  color: #1DC066;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -694,8 +694,8 @@
 .pi-icon-box .pi-icon-box-icon-square.pi-icon-box-icon-contur-base,
 .pi-icon-box-vertical .pi-icon-box-icon-square.pi-icon-box-icon-contur-base {
   background: none;
-  color: #8eba3e;
-  border-color: #8eba3e;
+  color: #1DC066;
+  border-color: #1DC066;
 }
 .pi-icon-box .pi-icon-box-icon-circle.pi-icon-box-icon-contur-dark,
 .pi-icon-box-vertical .pi-icon-box-icon-circle.pi-icon-box-icon-contur-dark,
@@ -717,20 +717,20 @@
   box-shadow: none;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon {
-  color: #8eba3e;
+  color: #1DC066;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon.pi-icon-box-icon-base {
   color: #f65f37;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon.pi-icon-box-icon-dark {
-  color: #8eba3e;
+  color: #1DC066;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon.pi-icon-box-icon-white {
-  color: #8eba3e;
+  color: #1DC066;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle,
 .pi-icon-box-hover:hover .pi-icon-box-icon-square {
-  background: #8eba3e;
+  background: #1DC066;
   color: #fff;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle.pi-icon-box-icon-base,
@@ -742,14 +742,14 @@
 .pi-icon-box-hover:hover .pi-icon-box-icon-square.pi-icon-box-icon-dark,
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle.pi-icon-box-icon-white,
 .pi-icon-box-hover:hover .pi-icon-box-icon-square.pi-icon-box-icon-white {
-  background: #8eba3e;
+  background: #1DC066;
   color: #fff;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle.pi-icon-box-icon-contur,
 .pi-icon-box-hover:hover .pi-icon-box-icon-square.pi-icon-box-icon-contur {
   background: none;
-  color: #8eba3e;
-  border-color: #8eba3e;
+  color: #1DC066;
+  border-color: #1DC066;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle.pi-icon-box-icon-contur-base,
 .pi-icon-box-hover:hover .pi-icon-box-icon-square.pi-icon-box-icon-contur-base {
@@ -760,18 +760,18 @@
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle.pi-icon-box-icon-contur-dark,
 .pi-icon-box-hover:hover .pi-icon-box-icon-square.pi-icon-box-icon-contur-dark {
   background: none;
-  color: #8eba3e;
-  border-color: #8eba3e;
+  color: #1DC066;
+  border-color: #1DC066;
 }
 .pi-icon-box-hover:hover .pi-icon-box-icon-circle.pi-icon-box-icon-contur-white,
 .pi-icon-box-hover:hover .pi-icon-box-icon-square.pi-icon-box-icon-contur-white {
   background: none;
-  color: #8eba3e;
-  border-color: #8eba3e;
+  color: #1DC066;
+  border-color: #1DC066;
 }
 .pi-list-icons-dot li:after,
 .pi-list-icons-ok li:after,
 .pi-list-icons-link li:after,
 .pi-list-icons-help li:after {
-  color: #8eba3e;
+  color: #1DC066;
 }

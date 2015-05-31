@@ -68,16 +68,16 @@
 }
 .pi-section-white .pi-pagenav a.pi-active,
 .pi-section-grey .pi-pagenav a.pi-active {
-  background: #8eba3e;
-  border-color: red;
+  background: #18ba60;
+  border-color: #10a95b;
   color: #ffffff;
   box-shadow: inset 0 1px 0 #1bc26c;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-section-white .pi-pagenav a.pi-active:hover,
 .pi-section-grey .pi-pagenav a.pi-active:hover {
-  background: #6B8C30;
-  border-color: blue;
+  background: #099555;
+  border-color: #088b4c;
   color: #ffffff;
   box-shadow: inset 0 1px 0 #0aa05e;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
 }
 .pi-section-base .pi-pagenav a:hover {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #21d178;
   color: #ffffff;
   box-shadow: none;
@@ -128,16 +128,16 @@
 }
 .pi-section-dark .pi-pagenav a.pi-active,
 .pi-section-parallax .pi-pagenav a.pi-active {
-  background: #8eba3e;
-  border-color: red;
+  background: #18ba60;
+  border-color: #10a95b;
   color: #ffffff;
   box-shadow: inset 0 1px 0 #1bc26c;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-section-dark .pi-pagenav a.pi-active:hover,
 .pi-section-parallax .pi-pagenav a.pi-active:hover {
-  background: #6B8C30;
-  border-color: blue;
+  background: #099555;
+  border-color: #088b4c;
   color: #ffffff;
   box-shadow: inset 0 1px 0 #0aa05e;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);

@@ -659,7 +659,7 @@
   box-shadow: none;
 }
 .pi-section-grey .pi-tabs-navigation li.pi-active a:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-grey .pi-tabs-navigation-transparent li.pi-active a,
 .pi-section-grey .pi-tabs-navigation-transparent li.pi-active a:hover,
@@ -706,7 +706,7 @@
   box-shadow: none;
 }
 .pi-section-white .pi-tabs-navigation li.pi-active a:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-white .pi-tabs-navigation-transparent li.pi-active a,
 .pi-section-white .pi-tabs-navigation-transparent li.pi-active a:hover,
@@ -734,11 +734,11 @@
 }
 .pi-section-base .pi-tabs-navigation li a {
   color: #ffffff;
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #21d178;
 }
 .pi-section-base .pi-tabs-navigation li a:hover {
-  background: #8eba3e;
+  background: #18ba60;
   color: #ffffff;
 }
 .pi-section-base .pi-tabs-navigation li.pi-active a,
@@ -800,7 +800,7 @@
   box-shadow: none;
 }
 .pi-section-dark .pi-tabs-navigation li.pi-active a:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-dark .pi-tabs-navigation-transparent li.pi-active a,
 .pi-section-dark .pi-tabs-navigation-transparent li.pi-active a:hover,
@@ -847,7 +847,7 @@
   box-shadow: none;
 }
 .pi-section-parallax .pi-tabs-navigation li.pi-active a:after {
-  background: #8eba3e;
+  background: #18ba60;
 }
 .pi-section-parallax .pi-tabs-navigation-transparent li.pi-active a,
 .pi-section-parallax .pi-tabs-navigation-transparent li.pi-active a:hover,

@@ -164,10 +164,10 @@
   box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.04);
 }
 .pi-section-base .pi-counter-line .pi-counter-progress {
-  background: #8eba3e;
-  -webkit-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  -moz-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
+  background: #18ba60;
+  -webkit-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  -moz-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
 }
 .pi-section-base .pi-counter-line.pi-slave .pi-counter-progress {
   background: #46d879;
@@ -182,7 +182,7 @@
   box-shadow: 0 2px 15px rgba(140, 209, 173, 0.4);
 }
 .pi-section-base .pi-counter-circle-colors {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #008691;
 }
 .pi-section-white .pi-counter-simple .pi-counter-count,
@@ -199,14 +199,14 @@
 }
 .pi-section-white .pi-counter-line .pi-counter-progress,
 .pi-section-parallax .pi-counter-line .pi-counter-progress {
-  background: #8eba3e;
-  -webkit-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  -moz-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
+  background: #18ba60;
+  -webkit-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  -moz-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
 }
 .pi-section-white .pi-counter-line.pi-slave .pi-counter-progress,
 .pi-section-parallax .pi-counter-line.pi-slave .pi-counter-progress {
-  background: #6B8C30;
+  background: #099555;
   -webkit-box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
   -moz-box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
   box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
@@ -220,7 +220,7 @@
 }
 .pi-section-white .pi-counter-circle-colors,
 .pi-section-parallax .pi-counter-circle-colors {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #edeff3;
 }
 .pi-section-grey .pi-counter-simple .pi-counter-count {
@@ -234,13 +234,13 @@
   box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.03);
 }
 .pi-section-grey .pi-counter-line .pi-counter-progress {
-  background: #8eba3e;
-  -webkit-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  -moz-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
+  background: #18ba60;
+  -webkit-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  -moz-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
 }
 .pi-section-grey .pi-counter-line.pi-slave .pi-counter-progress {
-  background: #6B8C30;
+  background: #099555;
   -webkit-box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
   -moz-box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
   box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
@@ -252,7 +252,7 @@
   box-shadow: 0 2px 15px rgba(187, 206, 201, 0.4);
 }
 .pi-section-grey .pi-counter-circle-colors {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #edeff3;
 }
 .pi-section-dark .pi-counter-simple .pi-counter-count {
@@ -266,13 +266,13 @@
   box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-section-dark .pi-counter-line .pi-counter-progress {
-  background: #8eba3e;
-  -webkit-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  -moz-box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
-  box-shadow: 0 2px 15px rgba(142, 186, 62, 0.4);
+  background: #18ba60;
+  -webkit-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  -moz-box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
+  box-shadow: 0 2px 15px rgba(24, 186, 96, 0.4);
 }
 .pi-section-dark .pi-counter-line.pi-slave .pi-counter-progress {
-  background: #6B8C30;
+  background: #099555;
   -webkit-box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
   -moz-box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
   box-shadow: 0 2px 15px rgba(9, 149, 85, 0.4);
@@ -284,6 +284,6 @@
   box-shadow: 0 2px 15px rgba(71, 105, 89, 0.4);
 }
 .pi-section-dark .pi-counter-circle-colors {
-  background: #8eba3e;
+  background: #18ba60;
   border-color: #2a3037;
 }
