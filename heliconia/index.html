@@ -36,6 +36,21 @@
 
 </head>
 <body>
+<style>
+#location_map {
+	background-image: url('img/colombia-locator.png'); 
+	background-position: 80% 10px; 
+	background-repeat: no-repeat;
+}
+/* Portrait */
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  	#location_map {
+  		background-image: url('img/colombia-locator.png'); 
+  		background-position: 120% 10px; 
+  		background-repeat: no-repeat;
+  	}
+}
+</style>
 
 <div id="pi-all">
 
@@ -92,22 +107,21 @@
 	<!-- Menu -->
 	<div class="pi-row-block pi-pull-right">
 		<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
-			<li class="active"><a href="index.html"><span>Home</span></a>
+			<li class="active"><a href="index.html"><span>Inicio</span></a>
 			</li>
-			<li class="pi-has-dropdown"><a href="about-about-3.html"><span>Quiénes somos</span></a>
+			<li class="pi-has-dropdown"><a href="about-about-3.html"><span>Conócenos</span></a>
 				<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
-					<li><a href="headers-headers-light.html"><span>Misión</span></a></li>
-					<li><a href="headers-headers-dark.html"><span>Visión</span></a></li>
-					<li><a href="headers-headers-base.html"><span>Historia</span></a></li>
-					<li><a href="headers-headers-base.html"><span>Equipo</span></a></li>
-					<li><a href="headers-headers-base.html"><span>Clientes</span></a></li>
+					<li><a href="headers-headers-light.html"><span>Misión y Visión</span></a></li>
+					<li><a href="headers-headers-base.html"><span>Nuestra historia</span></a></li>
+					<li><a href="headers-headers-base.html"><span>El equipo</span></a></li>
+					<li><a href="headers-headers-base.html"><span>Clientes satisfechos</span></a></li>
 				</ul>
 			</li>
-			<li class="pi-has-dropdown"><a href="docs-docs.html"><span>Servicios</span></a>
+			<li class="pi-has-dropdown"><a href="docs-docs.html"><span>Nuestros servicios</span></a>
 				<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
 					<li><a href="docs-docs.html"><span>Automatización</span></a></li>
 					<li><a href="docs-credits.html"><span>Desarrollo web</span></a></li>
-					<li><a href="docs-changelog.html"><span>Consultoría de tecnología</span></a></li>
+					<li><a href="docs-changelog.html"><span>Consultoría TECH</span></a></li>
 				</ul>
 			</li>
 			<li><a href="contact-contact-1-fancy-header.html"><span>Contáctanos</span></a>
@@ -138,22 +152,21 @@
 					<!-- End search form -->
 
 					<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
-						<li class="active"><a href="index.html"><span>Home</span></a>
+						<li class="active"><a href="index.html"><span>Inicio</span></a>
 						</li>
-						<li><a href="about-about-3.html"><span>Quiénes somos</span></a>
+						<li><a href="about-about-3.html"><span>Conócenos</span></a>
 							<ul>
-								<li><a href="headers-headers-light.html"><span>Misión</span></a></li>
-								<li><a href="footers-footers-light.html"><span>Visión</span></a></li>
-								<li><a href="utility-utility-alignment.html"><span>Historia</span></a></li>
-								<li><a href="typo.html"><span>Equipo</span></a></li>
-								<li><a href="animations.html"><span>Clientes</span></a></li>
+								<li><a href="headers-headers-light.html"><span>Misión y Visión</span></a></li>
+								<li><a href="utility-utility-alignment.html"><span>Nuestra historia</span></a></li>
+								<li><a href="typo.html"><span>El equipo</span></a></li>
+								<li><a href="animations.html"><span>Clientes satisfechos</span></a></li>
 							</ul>
 						</li>
-						<li><a href="about-about-1.html"><span>Servicios</span></a>
+						<li><a href="about-about-1.html"><span>Nuestros servicios</span></a>
 							<ul>
 								<li><a href="about-about-1.html"><span>Automatización</span></a></li>
 								<li><a href="about-about-2.html"><span>Desarrollo web</span></a></li>
-								<li><a href="about-about-3.html"><span>Consultoría de tecnología</span></a></li>
+								<li><a href="about-about-3.html"><span>Consultoría TECH</span></a></li>
 							</ul>
 						</li>
 						<li><a href="titlebars-small-breadcrumb-right.html"><span>Contáctanos</span></a></li>
@@ -581,7 +594,7 @@
 			<div class="pi-clearfix pi-hidden-lg-only pi-hidden-md-only"></div>
 
 			<!-- Col 4 -->
-			<div class="pi-col-md-6 pi-col-sm-6 pi-padding-bottom-30" style="background-image: url('img/colombia-locator.png'); background-position: 80% 0px; background-repeat: no-repeat;">
+			<div class="pi-col-md-6 pi-col-sm-6 pi-padding-bottom-30" id="location_map">
 
 				<h6 class="pi-margin-bottom-25 pi-weight-700 pi-uppercase pi-letter-spacing">
 					Contáctanos
@@ -592,7 +605,7 @@
 
 					<li>
 						<span class="pi-bullet-icon"><i class="icon-location"></i></span>
-						<strong>Dirección:</strong><br> Cra 7F # 147-48 Apto 706, Bogotá (110131)
+						<strong>Dirección:</strong><br><a href="https://www.google.com/maps/place/Cra.+7f+%23147-48,+Bogot%C3%A1,+Colombia/@4.7248006,-74.0297818,17z/data=!3m1!4b1!4m2!3m1!1s0x8e3f8ff5575cb9d3:0x6de07d8d6d4e5b9d">Cra 7F # 147-48 Of. 706<br>Bogotá (110131)</a>
 					</li>
 
 					<li>
