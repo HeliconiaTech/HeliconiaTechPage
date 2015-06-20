@@ -89,6 +89,8 @@
 
 		.nav select {
 			display: none;
+			margin: 0 auto;
+			margin-bottom: 20px;
 		}
 
 		@media (max-width: 768px) {
@@ -96,7 +98,7 @@
 				display: none;
 			}
 			.nav select {
-				display: inline-block;
+				display: block;
 			}
 		}
 	</style>
@@ -292,7 +294,7 @@
 					<!-- Row Titulo Subservicios-->
 					<div class="pi-row">
 						<!-- Col 10 -->
-						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-60">
+						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-30">
 							<p class="lead-30 pi-text-dark pi-text-center">
 								Nam libero tempore, <span class="pi-text-bg-base">cum soluta</span> nobis est optio cumque nihil impedit quo minus id quod maxime
 							</p>
@@ -401,12 +403,13 @@
 							<!-- End col 4 -->
 						</ul>
 						<select> 
-							<option value="" selected="selected">Select</option> 
-							<option href="#subserv11" value="#subserv11">Home</option> 
-							<option value="/collections/all">Books</option> 
-							<option value="/blogs/five-simple-steps-blog">Blog</option> 
-							<option value="/pages/about-us">About Us</option> 
-							<option value="/pages/support">Support</option> 
+							<option value="" selected="selected">Selecciona una categoría</option> 
+							<option href="#subserv11" value="#subserv11">Subserv11</option> 
+							<option href="#subserv12" value="#subserv12">Subserv12</option> 
+							<option href="#subserv13" value="#subserv13">Subserv13</option> 
+							<option href="#subserv14" value="#subserv14">Subserv14</option> 
+							<option href="#subserv15" value="#subserv15">Subserv15</option> 
+							<option href="#subserv16" value="#subserv16">Subserv16</option> 
 						</select> 
 					</div>
 					<!-- End row -->
@@ -554,7 +557,7 @@
 					<!-- Row Titulo Subservicios-->
 					<div class="pi-row">
 						<!-- Col 10 -->
-						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-60">
+						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-30">
 							<p class="lead-30 pi-text-dark pi-text-center">
 								Nam libero tempore, <span class="pi-text-bg-base">cum soluta</span> nobis est optio cumque nihil impedit quo minus id quod maxime
 							</p>
@@ -563,7 +566,7 @@
 					</div>
 					<!-- End row -->
 					<!-- Row Circulos Subservicios-->
-					<div class="pi-row">
+					<div class="nav pi-row">
 						<ul class="pi-grid-small-margins tab_nav" style="list-style-type: none;">
 							<!-- Col 4 -->
 							<li class="pi-col-sm-2 pi-col-xs-6 pi-padding-bottom-50 current_tab">
@@ -662,6 +665,15 @@
 							</li>
 							<!-- End col 4 -->
 						</ul>
+						<select> 
+							<option value="" selected="selected">Selecciona una categoría</option> 
+							<option href="#subserv21" value="#subserv21">Subserv21</option> 
+							<option href="#subserv22" value="#subserv22">Subserv22</option> 
+							<option href="#subserv23" value="#subserv23">Subserv23</option> 
+							<option href="#subserv24" value="#subserv24">Subserv24</option> 
+							<option href="#subserv25" value="#subserv25">Subserv25</option> 
+							<option href="#subserv26" value="#subserv26">Subserv26</option> 
+						</select> 
 					</div>
 					<!-- End row -->
 					<!-- Row Subservicios explicacion - Serv1-->
@@ -808,7 +820,7 @@
 					<!-- Row Titulo Subservicios-->
 					<div class="pi-row">
 						<!-- Col 10 -->
-						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-60">
+						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-30">
 							<p class="lead-30 pi-text-dark pi-text-center">
 								Nam libero tempore, <span class="pi-text-bg-base">cum soluta</span> nobis est optio cumque nihil impedit quo minus id quod maxime
 							</p>
@@ -1062,7 +1074,7 @@
 					<!-- Row Titulo Subservicios-->
 					<div class="pi-row">
 						<!-- Col 10 -->
-						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-60">
+						<div class="pi-col-sm-10 pi-col-sm-offset-1 pi-padding-bottom-30">
 							<p class="lead-30 pi-text-dark pi-text-center">
 								Nam libero tempore, <span class="pi-text-bg-base">cum soluta</span> nobis est optio cumque nihil impedit quo minus id quod maxime
 							</p>
@@ -1345,8 +1357,9 @@
 		});
 
 		$(".nav select").change(function() {
-		    $(this).closest(".tab_content").hide(); 
-		    $($(this).find("option:selected").attr('href')).fadeToggle('slow'); 
+		    $(this).parent().parent().find('.tab_content').hide();
+		    console.log($(this).find("option:selected").attr('href'));
+			$($(this).find("option:selected").attr('href')).fadeToggle('slow'); 
 		});
 	});
 	</script>
