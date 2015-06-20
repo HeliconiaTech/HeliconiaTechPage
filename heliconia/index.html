@@ -67,6 +67,63 @@
 		}
 
 		/* Sidebar */
+		#sidebar {
+			position: fixed;
+			left: 0px;
+			top: 300px;
+		    width:10%;
+		    float:left;
+		}
+
+		#content {
+		    width:724px;
+		    float:right;
+		    padding-left:24px;
+		}
+
+
+			/* navigation */
+		nav {
+		    background-color:rgb(240,240,240);
+		    border:solid 1px rgb(220,220,220);
+		    padding:0 12px;
+		}
+
+		nav.stick {
+		    position: fixed;
+		    top: 0;
+		    z-index: 10000;
+		    margin-top:12px;
+		}
+
+
+		nav ul {
+		    list-style-type:none;
+		    margin:0;
+		    padding:0;
+		}
+
+		nav li {
+
+		}
+
+		nav li a {
+		    color:rgb(50,50,50);
+		    font-weight:700;
+		}
+
+		a.nav-active {
+		    color:#ccc;
+		}
+
+
+
+		hr {
+		    border:none;
+		    background-color:rgb(220,220,220);
+		    height:12px;
+		    margin-bottom:18px;
+		}
 
 	</style>
 
@@ -188,7 +245,7 @@
 		<!-- Page -->
 		<div id="page">
 			<!-- - - - - - - - - - SECTION TOP IMAGE- - - - - - - - - -->
-			<div class="pi-section-w pi-section-parallax" style="background-image: url(img_external/gallery/team-smiling2.jpg);">
+			<div id="section-1" class="pi-section-w pi-section-parallax" style="background-image: url(img_external/gallery/team-smiling2.jpg);">
 				<div class="pi-texture" style="background: rgba(24, 28, 32, 0.7);"></div>
 				<div class="pi-section pi-padding-top-150 pi-padding-bottom-130 pi-text-center">
 					<h2 class="h1 pi-text-shadow">
@@ -213,7 +270,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- - - - - - - - - - SECTION SLOGAN HIGH TECH- - - - - - - - - -->
-			<div class="pi-section-w pi-shadow-inside-top pi-section-dark">
+			<div id="section-2" class="pi-section-w pi-shadow-inside-top pi-section-dark">
 				<div class="pi-texture" style="background: url(img/hexagon.png) repeat;"></div>
 				<div class="pi-section pi-padding-top-50 pi-padding-bottom-30">
 					<!-- Row -->
@@ -235,7 +292,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- - - - - - - - - - SECTION SERVICES- - - - - - - - - -->
-			<div class="pi-section-w pi-section-white">
+			<div id="section-3" class="pi-section-w pi-section-white">
 				<div class="pi-section pi-padding-bottom-20">
 					<!-- Row -->
 					<div class="pi-row pi-grid-big-margins">
@@ -318,7 +375,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- - - - - - - - - - SECTION APP - - - - - - - - - -->		
-			<div class="pi-section-w pi-section-grey pi-border-top">
+			<div id="section-4" class="pi-section-w pi-section-grey pi-border-top">
 				<div class="pi-texture" style="background: url(img/wave.png) repeat;"></div>
 				<div class="pi-section pi-padding-bottom-20">
 					<!-- Row -->
@@ -358,7 +415,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- - - - - - - - - - SECTION BASE (HOW WE WORK) - - - - - - - - - -->
-			<div class="pi-section-w pi-section-base pi-section-base-gradient">
+			<div id="section-5" class="pi-section-w pi-section-base pi-section-base-gradient">
 				<div class="pi-texture" style="background: url(img/hexagon.png) repeat;"></div>
 				<div class="pi-section">
 					<div class="pi-text-center">
@@ -377,7 +434,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- - - - - - - - - - SECTION NEWS - - - - - - - - - -->
-			<div class="pi-section-w pi-shadow-inside-top pi-section-white">
+			<div id="section-6" class="pi-section-w pi-shadow-inside-top pi-section-white">
 				<div class="pi-section pi-no-padding-bottom">
 					<div class="pi-text-center pi-padding-bottom-20">
 						<h3 class="pi-weight-700 pi-uppercase pi-letter-spacing pi-has-border pi-has-tall-border pi-has-short-border">
@@ -461,7 +518,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- - - - - - - - - - SECTION CONTACT US - - - - - - - - - -->
-			<div class="pi-section-w pi-shadow-inside-top pi-section-grey">
+			<div id="section-7" class="pi-section-w pi-shadow-inside-top pi-section-grey">
 				<div class="pi-texture" style="background: url(img/hexagon.png) repeat;"></div>
 				<div class="pi-section pi-padding-top-60 pi-padding-bottom-40 pi-text-center">
 					<p class="lead-30 pi-text-dark">
@@ -544,7 +601,19 @@
 		<!-- End scroll top -->
 
 		<!-- Sidebar -->
-
+		<div id="sidebar">
+			<div id="nav-anchor"></div>
+			<nav>
+				<ul>
+					<li><a href="section-1" data-scroll-to="#section-1" data-scroll-to-offset="-60">sect1</a></li>
+					<li><a href="section-2" data-scroll-to="#section-2" data-scroll-to-offset="-60">sect2</a></li>
+					<li><a href="section-3" data-scroll-to="#section-3" data-scroll-to-offset="-60">sect3</a></li>
+					<li><a href="section-4" data-scroll-to="#section-4" data-scroll-to-offset="-60">sect4</a></li>
+					<li><a href="section-5" data-scroll-to="#section-5" data-scroll-to-offset="-60">sect5</a></li>
+					<li><a href="section-6" data-scroll-to="#section-6" data-scroll-to-offset="-60">sect6</a></li>
+				</ul>
+			</nav>
+		</div>
 		<!-- End Sidebar -->
 	</div>
 
@@ -568,5 +637,7 @@
 	<script src="scripts/pi.init.parallax.js"></script>
 	<script src="scripts/pi.init.revolutionSlider.js"></script>
 	<script src="scripts/pi.init.animations.js"></script>
+	<!-- Added Script -->
+	<script src="3dParty/sidebar.js"></script>
 </body>
 </html>
