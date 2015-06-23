@@ -1,10 +1,11 @@
 /* Sidebar */
     #sidebar {
       position: fixed;
-      left: 0px;
+      right: 10px;
       top: 30%;
-        float:left;
-        z-index: 10000;
+      float:left;
+      z-index: 10000;
+      padding: 0;
     
     }
 
@@ -19,7 +20,6 @@
 
     nav ul {
         list-style-type:none;
-        padding-left: 0.9em;
     }
 
     nav li a{
