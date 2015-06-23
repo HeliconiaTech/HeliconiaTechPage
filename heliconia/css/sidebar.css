@@ -1,0 +1,40 @@
+/* Sidebar */
+    #sidebar {
+      position: fixed;
+      left: 0px;
+      top: 30%;
+        float:left;
+        z-index: 10000;
+    
+    }
+
+
+    nav.stick {
+        position: fixed;
+        top: 0;
+
+        margin-top:12px;
+    }
+
+
+    nav ul {
+        list-style-type:none;
+        padding-left: 0.9em;
+    }
+
+    nav li a{
+
+    }
+    nav li a div {
+      height: 10px;
+      width: 10px;
+      background: #e73644;
+      /*border-radius: 50%;*/
+      border: 1px solid #bf2134;
+    }
+
+    .nav-active div{
+        background: #269d78;
+        border: 1px solid #35a956;
+    }
+

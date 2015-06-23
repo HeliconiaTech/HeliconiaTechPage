@@ -51,7 +51,7 @@ $(document).ready(function(){
 				if (!$("nav li:last-child a").hasClass("nav-active")) {
 					var navActiveCurrent = $(".nav-active").attr("href");
 					$("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
-					$("nav li:last-child a").addClass("nav-active");
+					$("nav li:last-child a div").addClass("nav-active");
 				}
 			}
 		});
