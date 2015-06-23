@@ -1,6 +1,6 @@
 /* Sidebar */
     #sidebar {
-      position: fixed;
+      position: absolute;
       right: 10px;
       top: 30%;
       float:left;
@@ -9,14 +9,11 @@
     
     }
 
-
-/*    nav.stick {
+    nav.stick {
         position: fixed;
-        top: 0;
-
+        top: 30%;
         margin-top:12px;
     }
-*/
 
     nav ul {
         list-style-type:none;
