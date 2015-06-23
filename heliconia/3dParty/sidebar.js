@@ -7,7 +7,7 @@ $(document).ready(function(){
 		 */
 		
 		$(window).scroll(function(){
-			var window_top = $(window).scrollTop() + screen.height*0.3; // the "12" should equal the margin-top value for nav.stick
+			var window_top = $(window).scrollTop() + screen.height*0.25; // the "12" should equal the margin-top value for nav.stick
 			var div_top = $('#nav-anchor').offset().top;
 				if (window_top > div_top) {
 					$('nav').addClass('stick');
@@ -36,9 +36,7 @@ $(document).ready(function(){
 			
 			for (var i=0; i < aArray.length; i++) {
 				var theID = aArray[i];
-				console.log(theID);
-				var divPos = $('#'+theID).offset().top-60; // get the offset of the div from the top of page
-				console.log($('#'+theID).offset().top);
+				var divPos = $('#'+theID).offset().top-70; // get the offset of the div from the top of page
 				var divHeight = $('#'+theID).height(); // get the height of the div in question
 				if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
 					$("a[href='" + theID + "']").addClass("nav-active");

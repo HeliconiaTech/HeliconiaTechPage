@@ -4,8 +4,8 @@ jQuery(function($){
 	if($.fn.scrollTo){
 
 		var $w = $(window),
-			defaultOffset = -100,
-			defaultOffsetMin = -20,
+			defaultOffset = -70,
+			defaultOffsetMin = -70,
 			defaultDuration = 750,
 			defaultEasing = 'easeOutExpo';
 

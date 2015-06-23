@@ -2,7 +2,7 @@
     #sidebar {
       position: absolute;
       right: 10px;
-      top: 30%;
+      top: 25%;
       float:left;
       z-index: 10000;
       padding: 0;
@@ -11,7 +11,7 @@
 
     nav.stick {
         position: fixed;
-        top: 30%;
+        top: 25%;
         margin-top:12px;
     }
 

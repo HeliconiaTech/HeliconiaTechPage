@@ -1039,7 +1039,7 @@ jQuery(function($){
 
 		var $w = $(window),
 			defaultOffset = -100,
-			defaultOffsetMin = -20,
+			defaultOffsetMin = -69,
 			defaultDuration = 750,
 			defaultEasing = 'easeOutExpo';
 
