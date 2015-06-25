@@ -27,13 +27,13 @@
 
 <body>
 	<style>
+		/* Footer */
 		#location_map {
 			background-image: url('img/colombia-locator.png'); 
 			background-position: 80% -6px; 
 			background-repeat: no-repeat;
 		}
 
-		/* Portrait */
 		@media only screen and (max-device-width: 480px) and (orientation: portrait) {
 			#location_map {
 				background-image: url('img/colombia-locator.png'); 
@@ -41,6 +41,12 @@
 				background-repeat: no-repeat;
 			}
 		}
+		@media screen and (max-width:991px){
+			#footer{
+				padding-bottom: 65px;
+			}
+		}
+		/* End CSS footer*/
 
 		/* Circulos servicios */
 		.ht-service-icon .img {
@@ -476,7 +482,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- Footer -->
-			<div class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark">
+			<div id="footer" class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark" style="background-image: url('img/textura_pie.png');background-repeat: no-repeat;background-position: left bottom;  background-size: 769px 331px;">
 				<div class="pi-section pi-padding-bottom-10">
 					<!-- Row -->
 					<div class="pi-row">
