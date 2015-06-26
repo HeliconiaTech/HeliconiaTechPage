@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/social.css"/>
 	<!-- Added CSS -->
 	<link rel="stylesheet" type="text/css" href="css/page-nav.css"/>
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
 
 	<!--Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'/>
@@ -25,13 +26,13 @@
 
 <body>
 	<style>
+		/* Footer */
 		#location_map {
 			background-image: url('img/colombia-locator.png'); 
 			background-position: 80% -6px; 
 			background-repeat: no-repeat;
 		}
 
-		/* Portrait */
 		@media only screen and (max-device-width: 480px) and (orientation: portrait) {
 			#location_map {
 				background-image: url('img/colombia-locator.png'); 
@@ -39,6 +40,12 @@
 				background-repeat: no-repeat;
 			}
 		}
+		@media screen and (max-width:991px){
+			#footer{
+				padding-bottom: 65px;
+			}
+		}
+		/* End CSS footer*/
 	</style>
 
 	<div id="pi-all">
@@ -412,7 +419,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- Footer -->
-			<div class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark">
+			<div id="footer" class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark" style="background-image: url('img/textura_pie.png');background-repeat: no-repeat;background-position: left bottom;  background-size: 769px 331px;">
 				<div class="pi-section pi-padding-bottom-10">
 					<!-- Row -->
 					<div class="pi-row">
@@ -479,6 +486,20 @@
 		<!-- Scroll top -->
 		<div class="pi-scroll-top-arrow" data-scroll-to="0"></div>
 		<!-- End scroll top -->
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div id="nav-anchor"></div>
+			<nav>
+				<ul>
+					<li><a href="section-1" data-scroll-to="#section-1" data-scroll-to-offset="-70"><div></div></a></li>
+					<li><a href="section-2" data-scroll-to="#section-2" data-scroll-to-offset="-70"><div></div></a></li>
+					<li><a href="section-3" data-scroll-to="#section-3" data-scroll-to-offset="-70"><div></div></a></li>
+					<li><a href="section-4" data-scroll-to="#section-4" data-scroll-to-offset="-70"><div></div></a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- End Sidebar -->
 	</div>
 
 	<script src="3dParty/jquery-1.11.0.min.js"></script>
@@ -498,5 +519,7 @@
 	<script src="3dParty/isotope/isotope.js"></script>
 	<script src="scripts/pi.init.isotope.js"></script>
 	<script src="3dParty/jquery.scrollTo.min.js"></script>
+	<script src="3dParty/sidebar.js"></script>
+
 </body>
 </html>

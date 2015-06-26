@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animations.css"/>
 	<!-- Added CSS for FAQ-->
 	<link rel="stylesheet" type="text/css" href="css/accordion.css"/>
-	
+
 	<!--Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'/>
 
@@ -27,13 +27,13 @@
 
 <body>
 	<style>
+		/* Footer */
 		#location_map {
 			background-image: url('img/colombia-locator.png'); 
 			background-position: 80% -6px; 
 			background-repeat: no-repeat;
 		}
 
-		/* Portrait */
 		@media only screen and (max-device-width: 480px) and (orientation: portrait) {
 			#location_map {
 				background-image: url('img/colombia-locator.png'); 
@@ -41,6 +41,12 @@
 				background-repeat: no-repeat;
 			}
 		}
+		@media screen and (max-width:991px){
+			#footer{
+				padding-bottom: 65px;
+			}
+		}
+		/* End CSS footer*/
 	</style>
 
 	<div id="pi-all">
@@ -422,7 +428,7 @@
 			<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 			<!-- Footer -->
-			<div class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark">
+			<div id="footer" class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark" style="background-image: url('img/textura_pie.png');background-repeat: no-repeat;background-position: left bottom;  background-size: 769px 331px;">
 				<div class="pi-section pi-padding-bottom-10">
 					<!-- Row -->
 					<div class="pi-row">
@@ -489,6 +495,7 @@
 		<!-- Scroll top -->
 		<div class="pi-scroll-top-arrow" data-scroll-to="0"></div>
 		<!-- End scroll top -->
+
 	</div>
 
 	<script src="3dParty/jquery-1.11.0.min.js"></script>
@@ -513,5 +520,6 @@
 	<script src="scripts/pi.init.animations.js"></script>
 	<!-- Added JS for FAQ-->
 	<script src="scripts/pi.accordion.js"></script>
+
 </body>
 </html>
