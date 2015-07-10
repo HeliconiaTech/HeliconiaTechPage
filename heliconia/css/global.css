@@ -6050,7 +6050,7 @@ iframe[src="about:blank"] {
 }
 .pi-news-date {
   background: url("../img/news-date.png") no-repeat;
-  color: #2e343c;
+  color: rgba(171, 171, 171, 0.23);
   float: left;
   font-size: 22px;
   font-weight: 400;
@@ -6067,7 +6067,7 @@ iframe[src="about:blank"] {
   bottom: 11px;
   font-size: 11px;
   font-weight: 600;
-  color: #737a81;
+  color: rgba(115, 122, 129, 0.21);
   left: 0;
   line-height: 10px;
   position: absolute;
