@@ -2,7 +2,7 @@
     #sidebar {
       position: absolute;
       right: 10px;
-      top: 25%;
+      top: 50em;
       float:left;
       z-index: 10000;
       padding: 0;
