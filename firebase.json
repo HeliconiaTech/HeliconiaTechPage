@@ -1,0 +1,9 @@
+{
+  "firebase": "heliconia",
+  "public": "heliconia",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
